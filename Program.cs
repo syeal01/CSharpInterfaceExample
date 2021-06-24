@@ -24,6 +24,7 @@ namespace CSharpInterfaceExample
         string IExampleInterface1Method();
     }
     // Multiple inheritance with comma separated
+    // IExampleInterface2 inherits from IExampleInterface0 and IExampleInterface1
     interface IExampleInterface2 : IExampleInterface1, IExampleInterface0
     {
         string IExampleInterface2Method();
